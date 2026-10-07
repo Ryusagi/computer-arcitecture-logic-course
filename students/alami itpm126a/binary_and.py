@@ -1,5 +1,5 @@
 # Define a function called logical_or that takes two arguments: a and b
-def logical_or(a, b):
+def logical_and(a, b):
     # Return 1 if either a or b is truthy (non-zero), otherwise return 0
     return 1 if (a or b) else 0
 
@@ -22,7 +22,7 @@ def main():
             #   - value of b
             #   - result of logical_or(a, b)
             # f-string inserts the values into the formatted text
-            print(f" {a} | {b} |   {logical_or(a, b)}")
+            print(f" {a} | {b} |   {logical_and(a, b)}")
 
 
 # Check if this file is being run directly (not imported as a module)
