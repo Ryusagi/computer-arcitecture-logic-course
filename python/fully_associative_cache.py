@@ -14,7 +14,7 @@ def cache_insert(cache, value):
 
 def main():
    cache_size = int(input('add cache size\n'));
-   command = input('add the program to check in the format <number number number...>\n');
+   command = input('add the program to check in the format <number number number number...>\n');
    cache = [-1] * cache_size
    command_list = command.split()
    print('===========================')
