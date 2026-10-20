@@ -7,7 +7,7 @@ def logical_and(a, b):
 # Define the main function that will run the program
 def main():
     # Print the title of the truth table
-    print("Truth table for OR")
+    print("Truth table for AND")
     # Print the column headers: A, B, and the result of A OR B
     print(" A | B | A OR B")
     # Print a separator line under the headers
